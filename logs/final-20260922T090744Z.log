@@ -1,0 +1,23 @@
+[final] run_id=final-20260922T090744Z
+[final] 100 configurations x 15 blocks
+[final] workload N=4096 ready in 0.0s
+[final] workload N=16384 ready in 0.0s
+[final] workload N=65536 ready in 0.0s
+[final] workload N=262144 ready in 0.1s
+[final] workload N=1048576 ready in 0.3s
+[final] block 1/15 took 110.5s; elapsed 1.8 min; projected remaining 25.8 min
+[final] block 2/15 took 110.3s; elapsed 3.7 min; projected remaining 23.9 min
+[final] block 3/15 took 110.4s; elapsed 5.5 min; projected remaining 22.1 min
+[final] block 4/15 took 110.2s; elapsed 7.4 min; projected remaining 20.2 min
+[final] block 5/15 took 109.9s; elapsed 9.2 min; projected remaining 18.4 min
+[final] block 6/15 took 110.1s; elapsed 11.0 min; projected remaining 16.5 min
+[final] block 7/15 took 110.2s; elapsed 12.9 min; projected remaining 14.7 min
+[final] block 8/15 took 110.6s; elapsed 14.7 min; projected remaining 12.9 min
+[final] block 9/15 took 110.2s; elapsed 16.5 min; projected remaining 11.0 min
+[final] block 10/15 took 111.0s; elapsed 18.4 min; projected remaining 9.2 min
+[final] block 11/15 took 112.3s; elapsed 20.3 min; projected remaining 7.4 min
+[final] block 12/15 took 111.8s; elapsed 22.1 min; projected remaining 5.5 min
+[final] block 13/15 took 112.3s; elapsed 24.0 min; projected remaining 3.7 min
+[final] block 14/15 took 111.8s; elapsed 25.9 min; projected remaining 1.8 min
+[final] block 15/15 took 111.7s; elapsed 27.7 min; projected remaining 0.0 min
+[final] complete in 27.72 min (1500 build rows, 1125 proof rows)

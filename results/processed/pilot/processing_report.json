@@ -1,0 +1,107 @@
+{
+  "raw_dir": "/home/abz/articles/blockchain_paper/code/results/raw/pilot",
+  "run_id": "pilot-20260922T090406Z",
+  "target_mape_percent": 20,
+  "holdout_cells": [
+    {
+      "k": 3,
+      "n": 32768
+    },
+    {
+      "k": 8,
+      "n": 262144
+    }
+  ],
+  "cost_model": [
+    {
+      "hash_algorithm": "blake2s",
+      "metric": "build_total_ns",
+      "a_ns_per_hash_call": 672.1779673737657,
+      "a_ci_lo": 515.800049339832,
+      "a_ci_hi": 749.3027740650798,
+      "b_ns_per_byte": 1.3293899002826355,
+      "b_ci_lo": 0.8775298345412871,
+      "b_ci_hi": 2.0250798130453793,
+      "a_over_b": 505.6289108491474,
+      "training_cells": 13,
+      "train_mape_percent": 2.2690452571017037,
+      "holdout_cells": 2,
+      "holdout_mape_percent": 1.6991959195148627
+    },
+    {
+      "hash_algorithm": "sha256",
+      "metric": "build_total_ns",
+      "a_ns_per_hash_call": 727.1796455017691,
+      "a_ci_lo": 711.5988874866372,
+      "a_ci_hi": 733.1145989317118,
+      "b_ns_per_byte": 0.0,
+      "b_ci_lo": 0.0,
+      "b_ci_hi": 0.05125069275294027,
+      "a_over_b": NaN,
+      "training_cells": 13,
+      "train_mape_percent": 2.33677040446142,
+      "holdout_cells": 2,
+      "holdout_mape_percent": 1.1897407554948907
+    },
+    {
+      "hash_algorithm": "sha3_256",
+      "metric": "build_total_ns",
+      "a_ns_per_hash_call": 998.2428685324807,
+      "a_ci_lo": 817.5549604164496,
+      "a_ci_hi": 1060.0405304173362,
+      "b_ns_per_byte": 0.7384173590121214,
+      "b_ci_lo": 0.390112867885479,
+      "b_ci_hi": 1.472294047989838,
+      "a_over_b": 1351.8680951216563,
+      "training_cells": 13,
+      "train_mape_percent": 2.283726403286814,
+      "holdout_cells": 2,
+      "holdout_mape_percent": 0.9986718731079798
+    },
+    {
+      "hash_algorithm": "blake2s",
+      "metric": "proof_verification_ns",
+      "a_ns_per_hash_call": 527.6625514106265,
+      "a_ci_lo": 506.5981420747274,
+      "a_ci_hi": 537.4954883119656,
+      "b_ns_per_byte": 2.916640347322846,
+      "b_ci_lo": 2.875171325130391,
+      "b_ci_hi": 2.99260502003291,
+      "a_over_b": 180.91450730117015,
+      "training_cells": 13,
+      "train_mape_percent": 1.095977325566672,
+      "holdout_cells": 2,
+      "holdout_mape_percent": 2.2132870129536615
+    },
+    {
+      "hash_algorithm": "sha256",
+      "metric": "proof_verification_ns",
+      "a_ns_per_hash_call": 603.415641190845,
+      "a_ci_lo": 597.6420082482639,
+      "a_ci_hi": 611.5909951984594,
+      "b_ns_per_byte": 1.6599170800493581,
+      "b_ci_lo": 1.6271868332421113,
+      "b_ci_hi": 1.7171678551365472,
+      "a_over_b": 363.52155685566066,
+      "training_cells": 13,
+      "train_mape_percent": 0.6365387438345893,
+      "holdout_cells": 2,
+      "holdout_mape_percent": 0.344051435511892
+    },
+    {
+      "hash_algorithm": "sha3_256",
+      "metric": "proof_verification_ns",
+      "a_ns_per_hash_call": 806.8072097309511,
+      "a_ci_lo": 761.5975507429969,
+      "a_ci_hi": 834.1038066501125,
+      "b_ns_per_byte": 2.865892124217535,
+      "b_ci_lo": 2.5962115294551142,
+      "b_ci_hi": 3.0157860347293335,
+      "a_over_b": 281.5204392772568,
+      "training_cells": 13,
+      "train_mape_percent": 2.3448757516310206,
+      "holdout_cells": 2,
+      "holdout_mape_percent": 0.9164630784653103
+    }
+  ]
+}

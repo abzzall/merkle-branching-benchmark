@@ -1,0 +1,49 @@
+# Final experiment configuration.
+#
+# FROZEN AT LAUNCH: once the detached final run starts, neither this file nor
+# the experiment code may change until results are validated.
+seed: 20260922
+proof_seed: 20260923
+
+transaction_size_bytes: 256
+
+transaction_counts:
+  - 4096
+  - 16384
+  - 65536
+  - 262144
+  - 1048576
+
+branching_factors:
+  - 2
+  - 3
+  - 4
+  - 8
+  - 16
+
+hash_algorithms:
+  - sha256
+  - sha3_256
+  - blake2s
+
+# Instrumentation control, not a hash function under study.
+control_algorithms:
+  - nullhash
+
+timing_blocks: 15
+proof_samples_per_configuration: 16
+verification_batch_target_ms: 150
+rotate_proofs_within_batch: true
+
+warmup_repetitions: 3
+
+# Cost-model calibration (RQ3 / H2). Pre-registered before the run; never
+# revised after prediction errors are seen. Held-out cells interpolate inside
+# the grid rather than extrapolating past its edges.
+cost_model:
+  target_mape_percent: 20
+  holdout_cells:
+    - {k: 3, n: 65536}
+    - {k: 8, n: 65536}
+    - {k: 2, n: 262144}
+    - {k: 16, n: 16384}

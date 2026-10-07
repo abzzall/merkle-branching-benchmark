@@ -1,0 +1,84 @@
+{
+  "captured_utc": "2026-09-22T09:03:46.565789+00:00",
+  "configuration": {
+    "branching_factors": [
+      2,
+      3,
+      4
+    ],
+    "control_algorithms": [
+      "nullhash"
+    ],
+    "cost_model": {
+      "holdout_cells": [
+        {
+          "k": 3,
+          "n": 1024
+        }
+      ],
+      "target_mape_percent": 20
+    },
+    "hash_algorithms": [
+      "sha256",
+      "blake2s"
+    ],
+    "proof_samples_per_configuration": 8,
+    "proof_seed": 20260923,
+    "rotate_proofs_within_batch": true,
+    "seed": 20260922,
+    "timing_blocks": 3,
+    "transaction_counts": [
+      256,
+      1024
+    ],
+    "transaction_size_bytes": 256,
+    "verification_batch_target_ms": 20,
+    "warmup_repetitions": 2
+  },
+  "cpu_count_logical": 12,
+  "cpu_frequency": {
+    "current_mhz": 3466.6650000000004,
+    "max_mhz": 4200.0,
+    "min_mhz": 400.0
+  },
+  "cpu_model": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "git_revision": null,
+  "hashlib_algorithms_available": [
+    "blake2b",
+    "blake2s",
+    "md5",
+    "md5-sha1",
+    "ripemd160",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha3_224",
+    "sha3_256",
+    "sha3_384",
+    "sha3_512",
+    "sha512",
+    "sha512_224",
+    "sha512_256",
+    "shake_128",
+    "shake_256",
+    "sm3"
+  ],
+  "label": "smoke",
+  "machine": "x86_64",
+  "openssl_version": "OpenSSL 3.0.13 30 Jan 2024",
+  "packages": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "psutil": "7.2.2",
+    "pytest": "9.1.1",
+    "scipy": "1.18.1",
+    "yaml": "6.0.3"
+  },
+  "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39",
+  "python_implementation": "CPython",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "run_id": "smoke-20260922T090346Z",
+  "total_ram_bytes": 16443662336
+}

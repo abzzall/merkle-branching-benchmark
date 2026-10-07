@@ -1,0 +1,73 @@
+{
+  "raw_dir": "/home/abz/articles/blockchain_paper/code/results/raw/smoke",
+  "run_id": "smoke-20260922T090152Z",
+  "target_mape_percent": 20,
+  "holdout_cells": [
+    {
+      "k": 3,
+      "n": 1024
+    }
+  ],
+  "cost_model": [
+    {
+      "hash_algorithm": "blake2s",
+      "metric": "build_total_ns",
+      "a_ns_per_hash_call": 633.6134088958095,
+      "a_ci_lo": 271.2354536420445,
+      "a_ci_hi": 1137.7024158539762,
+      "b_ns_per_byte": 2.223138328777198,
+      "b_ci_lo": 0.0,
+      "b_ci_hi": 4.4378826284274755,
+      "a_over_b": 285.0085398169166,
+      "training_cells": 5,
+      "train_mape_percent": 3.43497841340377,
+      "holdout_cells": 1,
+      "holdout_mape_percent": 2.5283174287587222
+    },
+    {
+      "hash_algorithm": "sha256",
+      "metric": "build_total_ns",
+      "a_ns_per_hash_call": 737.2702403140482,
+      "a_ci_lo": 310.35265780665765,
+      "a_ci_hi": 933.3029373420854,
+      "b_ns_per_byte": 0.5157248230288851,
+      "b_ci_lo": 0.0,
+      "b_ci_hi": 2.7686474669222725,
+      "a_over_b": 1429.580674406969,
+      "training_cells": 5,
+      "train_mape_percent": 5.633203208062397,
+      "holdout_cells": 1,
+      "holdout_mape_percent": 0.2191861361516125
+    },
+    {
+      "hash_algorithm": "blake2s",
+      "metric": "proof_verification_ns",
+      "a_ns_per_hash_call": 541.8378886028663,
+      "a_ci_lo": 428.37443184387155,
+      "a_ci_hi": 708.1236592413036,
+      "b_ns_per_byte": 3.1224115380883206,
+      "b_ci_lo": 1.2501992917787612,
+      "b_ci_hi": 3.909504308090733,
+      "a_over_b": 173.53186214992135,
+      "training_cells": 5,
+      "train_mape_percent": 1.2213280559790234,
+      "holdout_cells": 1,
+      "holdout_mape_percent": 3.290422549371555
+    },
+    {
+      "hash_algorithm": "sha256",
+      "metric": "proof_verification_ns",
+      "a_ns_per_hash_call": 615.3641043978722,
+      "a_ci_lo": 591.6992995179738,
+      "a_ci_hi": 647.5054400099255,
+      "b_ns_per_byte": 1.7823879197086627,
+      "b_ci_lo": 1.4438958616673854,
+      "b_ci_hi": 1.9454508535587216,
+      "a_over_b": 345.24701250132773,
+      "training_cells": 5,
+      "train_mape_percent": 0.39988585050103514,
+      "holdout_cells": 1,
+      "holdout_mape_percent": 0.20581419950494942
+    }
+  ]
+}

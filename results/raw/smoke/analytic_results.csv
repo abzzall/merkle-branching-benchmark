@@ -1,0 +1,7 @@
+transaction_count,branching_factor,analytical_digest_bytes,construction_bytes_internal,construction_bytes_leaf,construction_bytes_total,construction_hash_calls_internal,construction_hash_calls_leaf,construction_hash_calls_total,internal_node_count,sampled_mean_serialized_bytes,sampled_mean_verification_bytes,sampled_mean_verification_hash_calls,serialized_max,serialized_mean,serialized_median,serialized_min,siblings_max,siblings_mean,siblings_median,siblings_min,transaction_size_bytes,tree_height
+256,2,16352,17085,65792,82877,255,256,511,255,275.0,793.0,9.0,275,275.0,275.0,275,8,8.0,8.0,8,256,8
+256,3,12416,12780,65792,78572,132,256,388,132,287.0,739.0,7.0,367,358.125,367.0,111,11,10.72265625,11.0,3,256,6
+256,4,10912,11135,65792,76927,85,256,341,85,395.0,781.0,5.0,395,395.0,395.0,395,12,12.0,12.0,12,256,4
+1024,2,65504,68541,263168,331709,1023,1024,2047,1023,343.0,927.0,11.0,343,343.0,343.0,343,10,10.0,10.0,10,256,10
+1024,3,49248,50761,263168,313929,515,1024,1539,515,373.0,858.0,8.0,433,418.84375,433.0,241,13,12.5576171875,13.0,7,256,7
+1024,4,43680,44671,263168,307839,341,1024,1365,341,493.0,912.0,6.0,493,493.0,493.0,493,15,15.0,15.0,15,256,5

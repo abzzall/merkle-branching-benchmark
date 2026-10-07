@@ -1,0 +1,18 @@
+# Tiny end-to-end smoke configuration. Not a measurement; it exists only to
+# exercise the full experiment-to-figures path before the long run.
+seed: 20260922
+proof_seed: 20260923
+transaction_size_bytes: 256
+transaction_counts: [256, 1024]
+branching_factors: [2, 3, 4]
+hash_algorithms: [sha256, blake2s]
+control_algorithms: [nullhash]
+timing_blocks: 3
+proof_samples_per_configuration: 8
+verification_batch_target_ms: 20
+rotate_proofs_within_batch: true
+warmup_repetitions: 2
+cost_model:
+  target_mape_percent: 20
+  holdout_cells:
+    - {k: 3, n: 1024}

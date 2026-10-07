@@ -1,0 +1,710 @@
+{
+  "pilot_raw_dir": "/home/abz/articles/blockchain_paper/code/results/raw/pilot",
+  "final_config": "/home/abz/articles/blockchain_paper/code/experiments/config.yaml",
+  "projected_minutes": 28.38232935257081,
+  "upper_gate_minutes": 45.0,
+  "lower_gate_minutes": 10.0,
+  "verdict": "CLEARED: within the launch gate",
+  "per_configuration": [
+    {
+      "transaction_count": 4096,
+      "branching_factor": 2,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.3076182370894252,
+      "projected_seconds_total": 4.614273556341378
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 2,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3308691063619558,
+      "projected_seconds_total": 4.963036595429338
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 2,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.32073770159607895,
+      "projected_seconds_total": 4.811065523941184
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 2,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.020782978775041983,
+      "projected_seconds_total": 0.31174468162562974
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 3,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.30274365984078366,
+      "projected_seconds_total": 4.541154897611754
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 3,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3243121377454631,
+      "projected_seconds_total": 4.864682066181945
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 3,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.3161361063776836,
+      "projected_seconds_total": 4.7420415956652535
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 3,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.019407709289492377,
+      "projected_seconds_total": 0.29111563934238566
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 4,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.3011076715861025,
+      "projected_seconds_total": 4.516615073791538
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 4,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3221115112919827,
+      "projected_seconds_total": 4.831672669379739
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 4,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.3145917353797289,
+      "projected_seconds_total": 4.718876030695934
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 4,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.018946146242972306,
+      "projected_seconds_total": 0.2841921936445846
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 8,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.2992475100137247,
+      "projected_seconds_total": 4.488712650205871
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 8,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3196093412719903,
+      "projected_seconds_total": 4.794140119079855
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 8,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.31283574503220035,
+      "projected_seconds_total": 4.6925361754830055
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 8,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.018421336948095255,
+      "projected_seconds_total": 0.2763200542214288
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 16,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.29850344538477347,
+      "projected_seconds_total": 4.477551680771603
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 16,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3186084732639934,
+      "projected_seconds_total": 4.779127098959901
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 16,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.31213334889318894,
+      "projected_seconds_total": 4.682000233397835
+    },
+    {
+      "transaction_count": 4096,
+      "branching_factor": 16,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.018211413230144434,
+      "projected_seconds_total": 0.2731711984521665
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 2,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.3638053466255232,
+      "projected_seconds_total": 5.4570801993828475
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 2,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.4153030113208873,
+      "projected_seconds_total": 6.22954516981331
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 2,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.3881576775670952,
+      "projected_seconds_total": 5.8223651635064275
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 2,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.034538819773901386,
+      "projected_seconds_total": 0.5180822966085208
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 3,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.34428080458314136,
+      "projected_seconds_total": 5.164212068747121
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 3,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3890398498418139,
+      "projected_seconds_total": 5.835597747627208
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 3,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.36972653272707406,
+      "projected_seconds_total": 5.545897990906112
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 3,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.02903034067498035,
+      "projected_seconds_total": 0.4354551101247053
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 4,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.3377583149671753,
+      "projected_seconds_total": 5.06637472450763
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 4,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.38026621522043047,
+      "projected_seconds_total": 5.703993228306458
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 4,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.3635693101623425,
+      "projected_seconds_total": 5.453539652435138
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 4,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.027190143980764025,
+      "projected_seconds_total": 0.4078521597114603
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 8,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.33031766867766377,
+      "projected_seconds_total": 4.954765030164956
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 8,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.37025753514046117,
+      "projected_seconds_total": 5.553863027106917
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 8,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.35654534877222815,
+      "projected_seconds_total": 5.348180231583423
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 8,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.02509090680125582,
+      "projected_seconds_total": 0.37636360201883734
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 16,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.3273414101618591,
+      "projected_seconds_total": 4.910121152427886
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 16,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.3662540631084734,
+      "projected_seconds_total": 5.493810946627101
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 16,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.35373576421618247,
+      "projected_seconds_total": 5.306036463242737
+    },
+    {
+      "transaction_count": 16384,
+      "branching_factor": 16,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.02425121192945254,
+      "projected_seconds_total": 0.36376817894178815
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 2,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.5885537847699152,
+      "projected_seconds_total": 8.828306771548727
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 2,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.7530386311566134,
+      "projected_seconds_total": 11.295579467349201
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 2,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.65783758145116,
+      "projected_seconds_total": 9.867563721767398
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 2,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.08956218376933904,
+      "projected_seconds_total": 1.3434327565400856
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 3,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.5104222290849864,
+      "projected_seconds_total": 7.656333436274795
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 3,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.6479410744963711,
+      "projected_seconds_total": 9.719116117445566
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 3,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.5840814843156071,
+      "projected_seconds_total": 8.761222264734108
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 3,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.06751884771964425,
+      "projected_seconds_total": 1.0127827157946636
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 4,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.4843608884914663,
+      "projected_seconds_total": 7.265413327371994
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 4,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.612885030934222,
+      "projected_seconds_total": 9.19327546401333
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 4,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.5594796092927966,
+      "projected_seconds_total": 8.392194139391949
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 4,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.06016613493193091,
+      "projected_seconds_total": 0.9024920239789637
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 8,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.4545935336883626,
+      "projected_seconds_total": 6.818903005325439
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 8,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.5728438947937804,
+      "projected_seconds_total": 8.592658421906705
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 8,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.5313792611929868,
+      "projected_seconds_total": 7.970688917894802
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 8,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.05176784054903944,
+      "projected_seconds_total": 0.7765176082355916
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 16,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.4426837299800867,
+      "projected_seconds_total": 6.6402559497013005
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 16,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 0.5568235908452653,
+      "projected_seconds_total": 8.352353862678981
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 16,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 0.5201364204294512,
+      "projected_seconds_total": 7.802046306441769
+    },
+    {
+      "transaction_count": 65536,
+      "branching_factor": 16,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.04840771539696766,
+      "projected_seconds_total": 0.7261157309545149
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 2,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 1.4875475373474831,
+      "projected_seconds_total": 22.313213060212245
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 2,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 2.103981110499517,
+      "projected_seconds_total": 31.55971665749276
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 2,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 1.7365571969874192,
+      "projected_seconds_total": 26.048357954811287
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 2,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.3096556397510896,
+      "projected_seconds_total": 4.644834596266344
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 3,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 1.1749807726247796,
+      "projected_seconds_total": 17.624711589371696
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 3,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 1.6835363493837536,
+      "projected_seconds_total": 25.2530452407563
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 3,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 1.4414945368607108,
+      "projected_seconds_total": 21.622418052910664
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 3,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.22147085740101186,
+      "projected_seconds_total": 3.3220628610151777
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 4,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 1.0707711825886301,
+      "projected_seconds_total": 16.061567738829453
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 4,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 1.5433602937893878,
+      "projected_seconds_total": 23.150404406840817
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 4,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 1.3431208058146131,
+      "projected_seconds_total": 20.146812087219196
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 4,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.19207009873659844,
+      "projected_seconds_total": 2.8810514810489765
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 8,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.9516922240861007,
+      "projected_seconds_total": 14.27538336129151
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 8,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 1.3831829175864936,
+      "projected_seconds_total": 20.747743763797402
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 8,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 1.2307104083366684,
+      "projected_seconds_total": 18.460656125050026
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 8,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.15847422987531523,
+      "projected_seconds_total": 2.3771134481297285
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 16,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 0.9040625485431121,
+      "projected_seconds_total": 13.56093822814668
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 16,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 1.3191145334335617,
+      "projected_seconds_total": 19.78671800150342
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 16,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 1.1857480503612319,
+      "projected_seconds_total": 17.786220755418476
+    },
+    {
+      "transaction_count": 262144,
+      "branching_factor": 16,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.14503642059674543,
+      "projected_seconds_total": 2.1755463089511813
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 2,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 5.083522547657755,
+      "projected_seconds_total": 76.25283821486632
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 2,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 7.507751027871134,
+      "projected_seconds_total": 112.616265418067
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 2,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 6.051435659132456,
+      "projected_seconds_total": 90.77153488698683
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 2,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 1.1900294636780917,
+      "projected_seconds_total": 17.850441955171377
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 3,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 3.833205407493839,
+      "projected_seconds_total": 57.49808111240759
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 3,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 5.825904617292155,
+      "projected_seconds_total": 87.38856925938231
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 3,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 4.8711377419624196,
+      "projected_seconds_total": 73.0670661294363
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 3,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.837276204796765,
+      "projected_seconds_total": 12.559143071951475
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 4,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 3.416412358977286,
+      "projected_seconds_total": 51.246185384659285
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 4,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 5.265261345210051,
+      "projected_seconds_total": 78.97892017815077
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 4,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 4.47768559190188,
+      "projected_seconds_total": 67.16528387852819
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 4,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.7196859539552685,
+      "projected_seconds_total": 10.795289309329027
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 8,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 2.9400965249671684,
+      "projected_seconds_total": 44.10144787450752
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 8,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 4.624551840398475,
+      "projected_seconds_total": 69.36827760597713
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 8,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 4.028044001990101,
+      "projected_seconds_total": 60.42066002985152
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 8,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.5853024785101356,
+      "projected_seconds_total": 8.779537177652035
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 16,
+      "hash_algorithm": "sha256",
+      "projected_seconds_per_block": 2.7495682835050985,
+      "projected_seconds_total": 41.24352425257648
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 16,
+      "hash_algorithm": "sha3_256",
+      "projected_seconds_per_block": 4.368265472145619,
+      "projected_seconds_total": 65.52398208218428
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 16,
+      "hash_algorithm": "blake2s",
+      "projected_seconds_per_block": 3.848185565009649,
+      "projected_seconds_total": 57.72278347514473
+    },
+    {
+      "transaction_count": 1048576,
+      "branching_factor": 16,
+      "hash_algorithm": "nullhash",
+      "projected_seconds_per_block": 0.5315485500661392,
+      "projected_seconds_total": 7.973228250992087
+    }
+  ]
+}

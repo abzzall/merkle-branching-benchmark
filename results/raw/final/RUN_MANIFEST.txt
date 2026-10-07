@@ -1,0 +1,18 @@
+Final experiment run
+====================
+launched_utc   : 2026-09-22T09:07:52Z
+pid            : 59741
+log            : code/logs/final-20260922T090744Z.log
+config         : code/experiments/config.yaml
+source_revision: 223fef811f00956cca7825db60c806e0dbba9889
+output_dir     : code/results/raw/final
+projected      : 28.4 min (pilot-based estimate, 45 min gate, 60 min hard limit)
+
+monitor:
+  tail -f /home/abz/articles/blockchain_paper/code/logs/final-20260922T090744Z.log
+check alive:
+  ps -p 59741
+validate when done:
+  cd /home/abz/articles/blockchain_paper/code && .venv/bin/python analysis/validate.py results/raw/final
+
+FROZEN: experiment code and configuration must not change until results are validated.

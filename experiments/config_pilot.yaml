@@ -1,0 +1,20 @@
+# Pilot configuration. Target: about five minutes. Its only purpose is to
+# estimate the final runtime and confirm the grid is neither too small to
+# resolve effects nor too large for the 45-minute gate.
+seed: 20260922
+proof_seed: 20260923
+transaction_size_bytes: 256
+transaction_counts: [4096, 32768, 262144]
+branching_factors: [2, 3, 4, 8, 16]
+hash_algorithms: [sha256, sha3_256, blake2s]
+control_algorithms: [nullhash]
+timing_blocks: 5
+proof_samples_per_configuration: 8
+verification_batch_target_ms: 150
+rotate_proofs_within_batch: true
+warmup_repetitions: 3
+cost_model:
+  target_mape_percent: 20
+  holdout_cells:
+    - {k: 3, n: 32768}
+    - {k: 8, n: 262144}
