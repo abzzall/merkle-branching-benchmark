@@ -152,4 +152,13 @@ Do not edit them. Derived tables, summaries and figures belong under
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+The software is licensed under the Apache License 2.0. Redistributions must
+preserve the license and attribution notices; see [LICENSE](LICENSE) and
+[NOTICE](NOTICE).
+
+## Citation
+
+If this software or its archived results contribute to a publication, cite the
+repository using [CITATION.cff](CITATION.cff). GitHub can render this metadata
+through its “Cite this repository” function. Add the public repository URL and
+Zenodo DOI to the citation metadata after publication and archival.

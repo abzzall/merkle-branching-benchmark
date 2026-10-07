@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its archived results, please cite this
+  repository using the metadata below.
+title: Merkle Branching-Factor Benchmark
+type: software
+version: 1.0.0
+date-released: 2026-10-07
+license: Apache-2.0
+authors:
+  - family-names: Kyzyrkanov
+    given-names: Abzal
+    orcid: https://orcid.org/0000-0002-8817-8617
+  - family-names: Sakhipov
+    given-names: Aivar
+    orcid: https://orcid.org/0000-0003-1045-4199
